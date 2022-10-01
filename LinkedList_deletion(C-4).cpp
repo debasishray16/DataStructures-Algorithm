@@ -17,7 +17,7 @@ void LinkedListTraversal(struct Node *ptr)
     }
 }
 
-
+// Delete a node with the given value.
 struct Node *deleteByNodeValue(struct Node *head, int value){
 
     struct Node *p = head;
