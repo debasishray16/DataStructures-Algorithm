@@ -20,11 +20,10 @@ void LinkedListTraversal(struct Node *ptr){
 struct Node *insertAtIndex(struct Node *head, int data, int index){
     struct Node *ptr = (struct Node *)malloc(sizeof(struct Node *));
     struct Node *p = head;
-    int i = 0;
-
-    while (i != index - 1){
-        p = p->next;
-        i++;
+    
+    
+    for (int i=0;i<index-1;i++){
+        p=p->next;
     }
 
     ptr->data = data;
