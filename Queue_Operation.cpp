@@ -10,6 +10,7 @@ struct queue{
 };
 
 
+
 int isEmpty(struct queue *q){
     if (q->front==q->back){
         return 1;
